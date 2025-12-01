@@ -269,7 +269,7 @@ const ProductPage = () => {
           {/* Cart Item */}
           <div className="d-flex align-items-center mb-3 border-bottom pb-3">
             <img
-              src="/images/red-tshirt.png"
+              src="/images/Shop6.png"
               alt="cart-item"
               className="rounded me-3"
               width="80"

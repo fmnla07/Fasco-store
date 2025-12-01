@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 function Clientnavbar() {
   return (
@@ -24,19 +25,19 @@ function Clientnavbar() {
         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul className="navbar-nav text-center">
             <li className="nav-item mx-2">
-              <a className="nav-link small text-secondary" href="/">
+              <Link className="nav-link small text-secondary" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-2">
-              <a className="nav-link active small text-dark border-bottom border-2 border-dark" href="/ShopPage">
+              <Link className="nav-link active small text-dark border-bottom border-2 border-dark" to="/ShopPage">
                 Shop
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-2">
-              <a className="nav-link small text-secondary" href="/ProductPage">
+              <Link className="nav-link small text-secondary" to="/ProductPage">
                 Products
-              </a>
+              </Link>
             </li>
             <li className="nav-item dropdown mx-2">
               <a

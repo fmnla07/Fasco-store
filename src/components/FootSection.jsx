@@ -3,7 +3,7 @@ import React from "react";
 function FootSection () {
     return (
         <section>
-          <div className='d-flex justify-content-around align-items-center gap-5'>
+          <div className='d-flex flex-wrap justify-content-around align-items-center gap-5'>
             <a className='img-fluid' href='/'><img src="images/FASCO.png" alt='logo' /></a>
             <div className='footer-links ms-5'>
               <a href='#'>Support Center</a>

@@ -1,14 +1,14 @@
 const images = [
-  "public/images/insta1.png",
-  "public/images/insta2.png",
-  "public/images/insta3.png",
-  "public/images/insta4.png",
-  "public/images/insta5.png",
-  "public/images/insta6.png",
-  "public/images/insta7.png",
+  "images/insta1.png",
+  "images/insta2.png",
+  "images/insta3.png",
+  "images/insta4.png",
+  "images/insta5.png",
+  "images/insta6.png",
+  "images/insta7.png",
 ];
 
-const InstagramSection = () => {
+function InstagramSection () {
   return (
     <section className="py-5">
       {/* Header */}
